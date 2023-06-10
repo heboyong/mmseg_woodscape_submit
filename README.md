@@ -4,8 +4,8 @@
 
 
 ### 1. Data Prepare
-The code for data preparation is in the WoodScape folder, please make sure you have downloaded and unzipped all the data from the official link.*
-Then modify all the paths under the folder to match your own settings, and  run:*
+The code for data preparation is in the WoodScape folder, please make sure you have downloaded and unzipped all the data from the official link.
+*Then modify all the paths under the folder to match your own settings, and  run:*
 
 ##### (1)  Process the synthetic dataset
 
