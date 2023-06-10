@@ -7,13 +7,13 @@
 The code for data preparation is in the WoodScape folder, please make sure you have downloaded and unzipped all the data from the official link.
 *Then modify all the paths under the folder to match your own settings, and  run:*
 
-##### (1)  Process the synthetic dataset
+#### (1)  Process the synthetic dataset
 
 ```shell
 python  woodscape/get_syn.py
 python  woodscape/get_syn_list.py
 ```
-###### (2) Process the real dataset and get the file list for training and testing
+#### (2) Process the real dataset and get the file list for training and testing
 
 ```shell
 python  woodscape/get_train_list.py
@@ -46,12 +46,12 @@ data
 ```
 
 ### 2. Requirement  and Package
-##### (1). Create a conda environment and activate it.
+#### (1). Create a conda environment and activate it.
 ```shell
 conda create --name openmmlab python=3.8 -y
 conda activate openmmlab
 ```
-##### (2). Install PyTorch 1.7 or higher
+#### (2). Install PyTorch 1.7 or higher
 
 ```shell
 conda install pytorch==1.7.0 torchvision==0.8.0 torchaudio==0.7.0 cudatoolkit=11.0 -c pytorch
